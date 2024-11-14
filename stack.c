@@ -9,8 +9,12 @@ void bye(){
     printf("This anorther change made by me");
 }
 
+int addition(int x, int y){
+
+    return x+y;
+}
 int main(){
 
-
+    addition(4,6);
     return 0;
 }
