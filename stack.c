@@ -13,6 +13,11 @@ int addition(int x, int y){
 
     return x+y;
 }
+
+void subtract(int x,int y){
+
+    printf("%d%d", x-y);
+}
 int main(){
 
     addition(4,6);
